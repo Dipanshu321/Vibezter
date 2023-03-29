@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.cake-images {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 46vw;
+    height: 34rem;
+    display: grid;
+    grid-gap: 0rem 1rem;
+    grid-template-areas: 
+    'cake-2 cake-1'
+    'cake-3 cake-1'
+    'cake-4 cake-1'
+    ;
+    cursor: pointer;
+}
+
+.cake-images img {
+    border-radius: 15px;
+    width: 8rem;
+    height: 8rem;
+    
+}
+#Mainimg{
+    grid-area: cake-1;
+    width: 30rem;
+    height: 26rem;
+    position: relative;
+    top: 4rem;
+}

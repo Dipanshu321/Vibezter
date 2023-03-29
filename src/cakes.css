@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+
+.cake-desc{
+    position: absolute;
+    top: 11rem;
+    left: 55rem;
+}
+.cake-desc h1{
+   padding: 5px;
+   font-size: 3rem;
+}
+.cake-desc h2{
+    padding: 5px;
+    font-size: 29px;
+}
+.cake-desc h3{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.myweight{
+    width: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+#pincode_input {
+    position: absolute;
+    top: 14rem;
+    left: 0rem;
+    width: 15vw;
+    height: 2rem;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#mydistrict{
+    position: absolute;
+    top: 18rem;
+    right: 13rem;
+    width: 13vw;
+    height: 1.5rem;
+}
